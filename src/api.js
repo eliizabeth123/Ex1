@@ -7,9 +7,9 @@ router.get('/', (req, res) => {
   res.send('Hello ' + req.query.name)
 })
 
-// router.listen(port, () => {
-//   console.log(`Example app listening on port ${port}`)
-// })
+router.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
 
 
 app.use('/.netlify/functions/api', router);
