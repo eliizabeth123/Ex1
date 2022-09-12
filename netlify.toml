@@ -1,10 +1,5 @@
-[build]
-  functions = "functions"
 
-[dev]
-  publish = "dist"
-
-[redirects] 
+[[redirects]]
 from = "/"
 to = "/index.html"
 status = 200
