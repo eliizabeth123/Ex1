@@ -7,8 +7,8 @@ router.get('/', (req, res) => {
   res.send('Hello ' + req.query.name)
 })
 
-router.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+router.listen(3000, () => {
+  console.log(`Example app listening on port 3000`)
 })
 
 
